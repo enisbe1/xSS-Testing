@@ -178,7 +178,7 @@ mainFrame.pack(fill = BOTH,anchor = "center")
 input_text = StringVar()
 
 url_entry = tk.Entry(navBarFrame,textvariable = input_text)
-url_entry.configure(relief = RAISED, width = 50)
+url_entry.configure(relief = RAISED, width = 70)
 url_entry.focus_force()
 url_entry.pack(side = LEFT)
 
