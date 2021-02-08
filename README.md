@@ -9,11 +9,11 @@
 
 # General info
 
-This project was built in order to test XSS vulnerabilities that allows an attacker to compromise the interactions that users have with a vulnerable web application.
+This project was built in order to test XSS vulnerabilities that allow an attacker to compromise the interactions that users have with a vulnerable website.
 
 # Technologies
 
-The entire appliaction is built in Python and for its  GUI was used the tkinter module . 
+The entire appliaction is built in Python. The application's GUI is built with the tkinter module in Python.  
 
 # Additional Info
 
