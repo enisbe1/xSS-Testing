@@ -10,6 +10,7 @@ import pprint,optparse, random, re, string, urllib, urllib.parse, urllib.request
 from patterns import REGULAR_PATTERNS
 from patterns import DOM_PATTERNS
 
+VERSION ="0.3c"
 SMALLER_CHAR_POOL    = ('<', '>')                                                           # characters used for XSS tampering of parameter values (smaller set - for avoiding possible SQLi errors)
 LARGER_CHAR_POOL     = ('\'', '"', '>', '<', ';')                                           # characters used for XSS tampering of parameter values (larger set)
 GET, POST            = "GET", "POST"                                                        # enumerator-like values used for marking current phase
