@@ -28,8 +28,8 @@ The entire appliaction is built in Python and the tkinter module is used for the
  the web page is XSS vulnerable.
 
 </pre>
-
-## Testing results
+<br>
+# Testing results
 <br>
 <p align="center">
   <img src="tests/xSS.png" width="500" title="hover text"
