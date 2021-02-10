@@ -15,7 +15,7 @@ Cross-site scripting works by manipulating a vulnerable web site so that it retu
 
 # Requirements
 
-The entire appliaction is built in Python. The application's GUI we used the tkinter module.<br> For the script to function properly the libraries that need to be installed are :<br> pip3 install requests bs4. 
+The entire appliaction is built in Python and the tkinter module is used for the application's GUI .<br> For the script to function properly the libraries that need to be installed are :<br> pip3 install requests bs4. 
 <br>
 <br> 
 
