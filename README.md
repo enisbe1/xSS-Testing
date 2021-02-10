@@ -3,18 +3,30 @@
 # Table of contents
 
 * [General info](#general-info)
-* [Technologies](#technologies)
+* [Requirements](#requirements)
 * [Additional Info](#additional-info)
-
 
 # General info
 
-This project was built in order to test XSS vulnerabilities that allow an attacker to compromise the interactions that users have with a vulnerable website.
+This application was built in order to test XSS vulnerabilities within vulnerable web sites. <br>
+Cross-site scripting works by manipulating a vulnerable web site so that it returns malicious JavaScript to users. When the malicious code executes inside a victim's browser, the attacker can fully compromise their interaction with the application.
+<br>
+<br>
 
-# Technologies
+# Requirements
 
-The entire appliaction is built in Python. The application's GUI is built with the tkinter module in Python.  
+The entire appliaction is built in Python. The application's GUI we used the tkinter module.<br> For the script to function properly the libraries that need to be installed are :<br> pip3 install requests bs4. 
+<br>
+<br> 
 
 # Additional Info
+<pre>
+ The main function of the application is to:
+ - grab all the HTML forms from a given URL and then print the number of forms detected.
+ - iterate all over the forms and submit the forms with putting the value of all text and search input fields with a Javascript code.
+ - if the Javscript code is injected and successfully executed then we come to the conclusion that 
+ the web page is XSS vulnerable.
+
+</pre>
 
 
