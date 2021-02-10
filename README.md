@@ -28,7 +28,7 @@ The entire appliaction is built in Python and the tkinter module is used for the
  the web page is XSS vulnerable.
 
 </pre>
-<br>
+
 # Testing results
 <br>
 <p align="center">
