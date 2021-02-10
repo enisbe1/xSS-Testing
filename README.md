@@ -29,4 +29,21 @@ The entire appliaction is built in Python and the tkinter module is used for the
 
 </pre>
 
+## Testing results
+<br>
+<p align="center">
+  <img src="tests/xSS.png" width="500" title="hover text"
+  >
+<br>
+<br>
+<p align="center">
+  <img src="tests/xSS_dom.png" width="500" title="hover text"
+  >
+
+<br>
+<br>
+<p align="center">
+  <img src="tests/xSS_scan.png" width="500" title="hover text"
+  >
+
 
